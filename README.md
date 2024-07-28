@@ -34,6 +34,18 @@ This is a simple game written using Python's `turtle` module. The goal of the ga
 
 2. Click on the turtle to increase your score. The game runs for a set amount of time, and your high score is recorded.
 
+
+## Gameplay Videos
+Initial gameplay:
+
+https://github.com/user-attachments/assets/bfe880f4-7608-4e16-86b4-1ab9e87b29e5
+
+New high score video:
+
+https://github.com/user-attachments/assets/6e6ac756-4a02-464e-b8ea-766042526fda
+
+
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
