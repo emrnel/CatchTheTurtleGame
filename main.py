@@ -15,6 +15,7 @@ def check_high_score(sc):
         return True
     return False
 
+
 def random_move_horizontal():
     h = random.choice(range(int((-1 * (my_screen.window_width() / 2) + TURTLE_SIZE * 2)),
                             int(((my_screen.window_width() / 2) - TURTLE_SIZE * 2))))
@@ -66,7 +67,8 @@ def countdown(time):
         if check_high_score(score):
             score_turtle.write(f"New High Score: {score}!", align='center', font=('Arial', 16, "normal"))
         else:
-            score_turtle.write(f"Score: {score} --- High Score: {high_score}", align='center', font=('Arial', 16, "normal"))
+            score_turtle.write(f"Score: {score} --- High Score: {high_score}", align='center',
+                               font=('Arial', 16, "normal"))
         timer_turtle.clear()
         timer_turtle.write("Game Over...", align='center', font=('Arial', 16, "normal"))
         starter_turtle.write('Press to play again:', align='center', font=('Arial', 16, "normal"))
@@ -75,6 +77,7 @@ def countdown(time):
 
 my_screen = Screen()
 my_screen.bgcolor('light blue')
+my_screen.title("Catch The Turtle")
 
 timer_turtle = Turtle(shape='turtle', visible=False)
 timer_turtle.penup()
