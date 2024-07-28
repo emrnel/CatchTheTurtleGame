@@ -29,7 +29,7 @@ This is a simple game written using Python's `turtle` module. The goal of the ga
 1. Run the game:
 
     ```bash
-    python catch_the_turtle.py
+    python main.py
     ```
 
 2. Click on the turtle to increase your score. The game runs for a set amount of time, and your high score is recorded.
